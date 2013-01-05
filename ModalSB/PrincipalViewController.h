@@ -10,4 +10,6 @@
 
 @interface PrincipalViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UITextField *campoTexto;
+
 @end

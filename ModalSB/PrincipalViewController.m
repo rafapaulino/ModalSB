@@ -7,12 +7,35 @@
 //
 
 #import "PrincipalViewController.h"
+#import "SegundaTelaViewController.h"
 
 @interface PrincipalViewController ()
 
 @end
 
 @implementation PrincipalViewController
+
+//metodo chamado momentos antes da transicao entre as telas acontecer
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"pg1"]) {
+        //recuperando a referencia de quem e a tela de destino do segue (seta)
+        SegundaTelaViewController *segundaTela = segue.destinationViewController;
+    
+        //passando o texto do campo de texto para String definidana tela de destino
+        segundaTela.textoRecebido = _campoTexto.text;
+    
+        _campoTexto.text = @"";
+        [_campoTexto resignFirstResponder];
+    }
+    else if ([segue.identifier isEqualToString:@"pg2"]){
+        NSLog(@"Pagina 2");
+    }
+    else {
+        
+    }
+
+}
 
 - (void)viewDidLoad
 {

@@ -20,6 +20,7 @@
 		6A6E738B15ED0BB700B49D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E736C15ED0BB700B49D35 /* Foundation.framework */; };
 		6A6E739315ED0BB700B49D35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E739115ED0BB700B49D35 /* InfoPlist.strings */; };
 		6A6E739615ED0BB700B49D35 /* ModalSBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E739515ED0BB700B49D35 /* ModalSBTests.m */; };
+		6A6E73A115ED0E1D00B49D35 /* SegundaTelaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E73A015ED0E1D00B49D35 /* SegundaTelaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		6A6E739215ED0BB700B49D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A6E739415ED0BB700B49D35 /* ModalSBTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalSBTests.h; sourceTree = "<group>"; };
 		6A6E739515ED0BB700B49D35 /* ModalSBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalSBTests.m; sourceTree = "<group>"; };
+		6A6E739F15ED0E1D00B49D35 /* SegundaTelaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundaTelaViewController.h; sourceTree = "<group>"; };
+		6A6E73A015ED0E1D00B49D35 /* SegundaTelaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundaTelaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				6A6E737915ED0BB700B49D35 /* PrincipalAppDelegate.h */,
 				6A6E737A15ED0BB700B49D35 /* PrincipalAppDelegate.m */,
 				6A6E737C15ED0BB700B49D35 /* MainStoryboard.storyboard */,
+				6A6E739F15ED0E1D00B49D35 /* SegundaTelaViewController.h */,
+				6A6E73A015ED0E1D00B49D35 /* SegundaTelaViewController.m */,
 				6A6E737F15ED0BB700B49D35 /* PrincipalViewController.h */,
 				6A6E738015ED0BB700B49D35 /* PrincipalViewController.m */,
 				6A6E737115ED0BB700B49D35 /* Supporting Files */,
@@ -262,6 +267,7 @@
 				6A6E737715ED0BB700B49D35 /* main.m in Sources */,
 				6A6E737B15ED0BB700B49D35 /* PrincipalAppDelegate.m in Sources */,
 				6A6E738115ED0BB700B49D35 /* PrincipalViewController.m in Sources */,
+				6A6E73A115ED0E1D00B49D35 /* SegundaTelaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
